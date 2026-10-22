@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the thesis below."
+title: "Image Guidance and Safe Insertion Region Localization for Lumbar Puncture using Ultrasound"
+authors:
+  - family-names: Tamhankar
+    given-names: Aabha
+    affiliation: "Worcester Polytechnic Institute"
+  - family-names: Nycz
+    given-names: Christopher
+    affiliation: "Worcester Polytechnic Institute"
+date-released: 2024-04-30
+license: MIT
+preferred-citation:
+  type: thesis
+  title: "Image Guidance and Safe Insertion Region Localization for Lumbar Puncture using Ultrasound"
+  authors:
+    - family-names: Tamhankar
+      given-names: Aabha
+  institution:
+    name: "Worcester Polytechnic Institute"
+  year: 2024
+  url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NlcNljEAAAAJ&citation_for_view=NlcNljEAAAAJ:u5HHmVD_uO8C"

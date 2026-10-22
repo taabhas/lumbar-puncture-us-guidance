@@ -1,0 +1,46 @@
+{
+  "n_frames": 44,
+  "n_annotated": 30,
+  "methods": {
+    "global": {
+      "label": "No correction (tracker pose only)",
+      "iou_mean": 67.42902409183347,
+      "iou_std": 7.418036292242613,
+      "surface_err_mean_mm": 11.09466535234007,
+      "surface_err_median_mm": 11.132857993703734,
+      "n": 30
+    },
+    "auto_translation": {
+      "label": "Corrected to automatically detected bone",
+      "iou_mean": 77.6249194364158,
+      "iou_std": 10.911349683194926,
+      "surface_err_mean_mm": 3.9865116851087747,
+      "surface_err_median_mm": 3.627183342972817,
+      "n": 30
+    },
+    "translation": {
+      "label": "Corrected to local refinement (shift only)",
+      "iou_mean": 87.19807879847869,
+      "iou_std": 5.1219322797702675,
+      "surface_err_mean_mm": 1.9659927063110498,
+      "surface_err_median_mm": 2.1476831613918517,
+      "n": 30
+    },
+    "rigid": {
+      "label": "Corrected to local refinement (shift + rotation)",
+      "iou_mean": 87.68769725476363,
+      "iou_std": 5.838698319948705,
+      "surface_err_mean_mm": 1.4166052763261805,
+      "surface_err_median_mm": 1.5458760107816711,
+      "n": 30
+    }
+  },
+  "bone_detector": {
+    "median_abs_err_mm": 0.9142857142857143,
+    "mean_coverage": 0.8999610348594426
+  },
+  "us_cloud_to_mri_mm": {
+    "global_median": 8.02233751206502,
+    "refined_median": 0.9941488886554194
+  }
+}
